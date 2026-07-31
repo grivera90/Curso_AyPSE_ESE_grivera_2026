@@ -59,7 +59,7 @@ void app_main(void)
 {
     ESP_LOGI(TAG, "ADS1115 Driver Init...");
 
-    if (!bsp_init()) 
+    if (bsp_init() != BSP_OK) 
 	{
         ESP_LOGE(TAG, "BSP Error. System stopped");
         return;

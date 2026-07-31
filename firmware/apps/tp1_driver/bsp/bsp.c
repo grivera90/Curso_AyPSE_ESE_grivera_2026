@@ -26,8 +26,8 @@
 ******************************************************************************/
 static const char *TAG = "[BSP]";
 
-#define BSP_I2C_SCL_PIN     	(GPIO_NUM_18)
-#define BSP_I2C_SDA_PIN     	(GPIO_NUM_19)
+#define BSP_I2C_SCL_PIN     	(GPIO_NUM_12)
+#define BSP_I2C_SDA_PIN     	(GPIO_NUM_13)
 #define BSP_I2C_PORT            (0)
 #define BSP_I2C_FREQ_HZ         (100000)       // 100 kHz (Standard Mode para ADS1115)
 
